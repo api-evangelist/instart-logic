@@ -1,22 +1,65 @@
 aid: instart-logic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instart-logic.png
 name: Instart Logic
-description: Instart Logic is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Instart Logic was a web application performance and security company founded
+  in 2010 (originally as Zettata) and headquartered in Palo Alto, California. It
+  pioneered an endpoint-integrated cloud delivery architecture that paired a
+  cloud service with a client-side JavaScript engine (the Nanovisor) running in
+  the browser to accelerate web and mobile web applications, optimize and stream
+  images (SmartVision), and defend applications with bot management and a web
+  application firewall. Backed by Andreessen Horowitz, Kleiner Perkins, Tenaya
+  Capital, Greylock, Sutter Hill Ventures and others across roughly $140M+ in
+  venture funding, the company's technology assets were acquired by Akamai
+  Technologies in early 2020, after which the business wound down. No live
+  developer or API surface remains: the instartlogic.com domain resolves to no
+  website host and is served by Akamai nameservers.
 url: https://raw.githubusercontent.com/api-evangelist/instart-logic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Kleiner Perkins
+- Tenaya Capital
+- Greylock Partners
+- Sutter Hill Ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Technology assets acquired by Akamai Technologies in early 2020; business wound down.
+x-acquired-by: Akamai Technologies
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- CDN
+- Content Delivery
+- Web Performance
+- Application Security
+- Web Application Firewall
+- Bot Management
+- Image Optimization
+- Edge Computing
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
